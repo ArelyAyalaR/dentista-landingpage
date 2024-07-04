@@ -1,0 +1,44 @@
+.legend img{
+    width: auto;
+    height: 4rem;
+}
+
+.legend{
+    text-decoration: none;
+    color: #490e2e;
+}
+
+.margin-right{
+    margin-right: 5%;
+}
+
+.nav-bar-options a{
+    color: #490e2e;
+}
+
+.btn-primary-color{
+    background-color: #dd57ae;
+    color: #fcf3f9;
+    border-color: #dd57ae;
+}
+
+#main-info{
+    padding-top: 90px;
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#imagen-principal-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#imagen-principal-fondo{
+    width: 70%;
+    height: 70%;
+    background-color: aqua;
+}
