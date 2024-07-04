@@ -1,3 +1,11 @@
+h1{
+    color: #490E2E;
+}
+
+p{
+    color: #CA388F;
+}
+
 .legend img{
     width: auto;
     height: 4rem;
@@ -22,9 +30,29 @@
     border-color: #dd57ae;
 }
 
+.btn-selected-color{
+    background-color: #A82670;
+    color: #fcf3f9;
+    border-color: #A82670; 
+}
+
+.btn-selected-color:hover, .btn-primary-color:hover{
+    background-color: #c13d60;
+    color: #fcf3f9;
+    border-color: #c13d60;
+}
+
+#resumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10%;
+}
+
 #main-info{
     padding-top: 90px;
-    background-color: red;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -34,11 +62,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 
 #imagen-principal-fondo{
     width: 70%;
-    height: 70%;
-    background-color: aqua;
+    max-height: 70%;
+    padding-bottom: 30%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #F7D3ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15%;
+}
+
+#imagen-principal{
+    padding: 40% 10% 10% 10%;
 }
