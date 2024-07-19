@@ -9,6 +9,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/86a90c7794.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
@@ -62,7 +63,9 @@
       <div class="row">
         <section id="resumen" class="col-xl-6 col-lg-6 col-sm-6 col-12">
           <h1 class="fs-1">Clínica dental pediátrica</h1>
-          <p class="fs-5 px-5">Lorem impsum en lorem de 250 x2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit iure esse nobis iusto. Vero voluptas recusandae officiis, atque cumque magni quam illo sit, porro ipsam repellat inventore, dolorem doloribus rem?</p>
+          <p class="fs-5 px-5">Lorem impsum en lorem de 250 x2 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Sit iure esse nobis iusto. Vero voluptas recusandae officiis, atque cumque magni quam illo sit, porro ipsam
+            repellat inventore, dolorem doloribus rem?</p>
           <button type="button" class="btn btn-primary btn-lg btn-selected-color">Reservar <i
               class="fa-solid fa-phone mx-1"></i></button>
         </section>
@@ -100,22 +103,75 @@
 
         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
           <h2 class="mt-3 mb-4">Seccion del carrusel</h2>
-          <p class="mt-3 mb-4">Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation 
+          <p class="mt-3 mb-4">Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation
             ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
       </div>
     </section>
 
+    <!-- Reseñas -->
+    <section class="resenas seccion-clara">
+      <h2 class="seccion-titulo">Reseñas</h2>
+      <h3 class="seccion-descripcion">Estos son algunas reseñas de nuestros clientes</h3>
 
+      <!-- Carrusel -->
+      <div id="resenas-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="resena-imagen rounded-circle"
+                src="https://images.unsplash.com/photo-1531141445733-14c2eb7d4c1f?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+              <p class="resena-texto">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fugit, iste. Consectetur quam quod, blanditiis recusandae error aspernatur.
+                Sit unde commodi quasi quia quo dolorem ducimus!</p>
+              <div class="resena-info">
+                <p class="cliente">Arely</p>
+              </div>
+            </div>
+          </div>
 
-    <div id="resenas">
-      <h2>Reseñas</h2>
-      <p>Cualquier texto de ejemplo</p>
-      <section id="resenas-galeria"></section>
-    </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="resena-imagen rounded-circle"
+                src="https://images.unsplash.com/photo-1488161628813-04466f872be2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+              <p class="resena-texto">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fugit, iste. Consectetur quam quod, blanditiis recusandae error aspernatur.
+                Sit unde commodi quasi quia quo dolorem ducimus!</p>
+              <div class="resena-info">
+                <p class="cliente">Juan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="container">
+              <img class="resena-imagen rounded-circle"
+                src="https://images.unsplash.com/photo-1531446341283-459794cc499e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+              <p class="resena-texto">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Fugit, iste. Consectetur quam quod, blanditiis recusandae error aspernatur.
+                Sit unde commodi quasi quia quo dolorem ducimus!</p>
+              <div class="resena-info">
+                <p class="cliente">Alex</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#resenas-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#resenas-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
 
     <footer id="pie-de-pagina">
 
